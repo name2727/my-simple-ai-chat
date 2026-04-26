@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-st.title("🤖 简单AI助手")
+st.title("🤖 name27助手")
 
 # 从Streamlit Secrets读取API Key（部署时在云端设置）
 api_key = st.secrets["DEEPSEEK_API_KEY"]
